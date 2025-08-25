@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    height: 60px;
+    align-items: center;
+    top: 0;
+}
+.logo img{
+    height: 40px;
+    align-items: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.btn img{
+    width: 26px;
+}
+.search{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search input{
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 16px;
+    border: 0;
+
+}
+.btn{
+    border: 0;
+    cursor: pointer;
+    background: rgb(225, 166, 0, 0.768);
+    padding: 6px 10px;
+    border-radius: 0 5px 5px 0;
+}
+#profile img{
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+
+}
+#cart img{
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+
+}
+.icon{
+    margin: 0;
+}
+.icon:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+.subnav{
+    display: flex;
+    background-color: #232f3e;
+    padding: 9px;
+    margin-bottom: auto;
+
+}
+
+.subnav a{
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 14px;
+    width: 8%; 
+}
+.subnav a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.item1 img:hover {
+  transform: translateY(-10px);
+}
+.item2 img:hover {
+  transform: translateY(-10px);
+}
+.item3 img:hover {
+  transform: translateY(-10px);
+}
+.item4 img:hover {
+  transform: translateY(-10px);
+}
+.item5 img:hover {
+  transform: translateY(-10px);
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5{
+    box-sizing: border-box;
+    border: 0px solid rgb(255, 252, 252);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.item1 img{
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+
+}
+
+#phone1{
+    width: 17%;
+}
+#phone2{
+    width: 17%;
+}
+.item1 .buttons,
+.item2 .buttons,
+.item3 .buttons,
+.item4 .buttons,
+.item5 .buttons{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    height: 50px;
+    font-size: 25px;
+    background-color: #cbc9e1;
+}
+.items2 img{
+    margin: 10px;
+    padding: 10px;
+    width: 21.5;
+    margin-top: 8px;
+}
+#lap1{
+    width: 23%;
+}
+#lap4{
+    width: 25%;
+}
+
+
+.item3 img{
+    margin: 10px;
+    padding: 10px;
+    width: 21%;
+}
+.items4 img,
+.items4 img{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#head1,
+#head2,
+#head3,
+#head4{
+    width: 14%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head5{
+    width: 14%;
+    padding: 30px;
+     margin-left: auto;
+    margin-right: auto;
+}
+#book1,
+#book2,
+#book3{
+    width: 18%;
+    padding: 10px;
+}
+#book4{
+    width: 18%;
+    padding: 10px;
+}
+#book5{
+    width: 18%;
+    padding: 10px;
+}
+.bar{
+    text-align: center;
+    padding: 5px;
+
+}
+.bar button{
+    width: 17%;
+    border: 1px solid rgba(255, 166, 0, 0.898);
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgba(255, 166, 0, 0.809);
+    border-radius: 4px;
+    font-family: 'Amazon Ember', sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+    
+}
+.bar a{
+    text-decoration: none;
+    color: rgb(11, 121, 181);
+}
+.backtotop{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    color: #ffffff;
+    height: 50px;
+    background-color: #2f4055;
+     font-family: 'Amazon Ember', sans-serif;
+    
+}
+.backtotop:hover{
+    background-color: #2f4055d9;
+
+}
+.subfooter{
+    background-color: #222e3d;
+    text-align: center;
+    padding: 30px;
+}
+.subfooter img{
+    width: 8%;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+/* #language{
+    height: 20px;
+    width: 90px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #222e3d;
+    box-sizing: content-box;
+} */
+footer{
+    background-color: #131a22;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+@media screen and(max-width:800px){
+    nav{
+    flex-direction: column;
+    height: 120px;
+    }
+    .logosAndIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .logo{
+    margin: 0 5vh;
+
+    }
+    .icons{
+    display: none;
+    }
+    .subnav{
+    display: none;
+    
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    .item1 .buttons,
+    .item2 .buttons,
+    .item3 .buttons,
+    .item4 .buttons,
+    .item5 .buttons{
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    height: 20%;
+    padding: 6px;
+
+    }
+    .subfooter{
+    display: flex;
+
+    }
+    #language{
+    padding-right: 10px;
+    }
+
+}
+
+
+
+/* 📱 Mobile devices (up to 600px) */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .search {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .icons {
+    display: none;
+  }
+  .subnav {
+    display: none;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .bar button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+/* 📱 Tablets (601px - 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    background-color: lightgreen;
+    font-size: 16px;
+  }
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .search {
+    width: 80%;
+  }
+  .subnav {
+    flex-wrap: wrap;
+  }
+  .item1 img,
+  .item2 img,
+  .item3 img {
+    width: 40%;
+  }
+}
+
+/* 💻 Small desktops (901px - 1200px) */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  body {
+    background-color: lightyellow;
+    font-size: 18px;
+  }
+  .search {
+    width: 60%;
+  }
+  .item1 img,
+  .item2 img,
+  .item3 img {
+    width: 30%;
+  }
+}
+
+/* 🖥 Large desktops (1201px and above) */
+@media screen and (min-width: 1201px) {
+  body {
+    background-color: white;
+    font-size: 20px;
+  }
+}
